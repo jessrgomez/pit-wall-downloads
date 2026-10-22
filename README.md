@@ -9,6 +9,8 @@ This repository holds the installers. The source code is private.
 | System | Installer | Size |
 | --- | --- | --- |
 | Windows 10 or 11 | [PitWall-RB-Buddy-Setup-1.2.0.exe](https://github.com/jessrgomez/pit-wall-downloads/releases/download/v1.2.0/PitWall-RB-Buddy-Setup-1.2.0.exe) | 2.4 MB |
+| Mac with Apple Silicon (M-series), macOS 11 or later | [PitWall-RB-Buddy-1.2.0-arm64.dmg](https://github.com/jessrgomez/pit-wall-downloads/releases/download/mac-v1.2.0/PitWall-RB-Buddy-1.2.0-arm64.dmg) | 94 MB |
+| Mac with an Intel chip, macOS 11 or later | [PitWall-RB-Buddy-1.2.0-x64.dmg](https://github.com/jessrgomez/pit-wall-downloads/releases/download/mac-v1.2.0/PitWall-RB-Buddy-1.2.0-x64.dmg) | 100 MB |
 | Ubuntu (64-bit) | [PitWall-RB-Buddy-1.2.0-amd64.deb](https://github.com/jessrgomez/pit-wall-downloads/releases/download/ubuntu-v1.2.0/PitWall-RB-Buddy-1.2.0-amd64.deb) | 74 MB |
 
 Every version is on the [Releases](https://github.com/jessrgomez/pit-wall-downloads/releases) page.
@@ -20,6 +22,15 @@ Every version is on the [Releases](https://github.com/jessrgomez/pit-wall-downlo
 3. The car starts on your desktop. Right-click it, open **Pit Wall**, then **Settings** to set your name.
 
 PowerShell 5.1 and the Edge WebView2 Runtime come with Windows 10 and 11, so there is nothing else to install. To uninstall, go to **Settings > Apps > Pit Wall RB Buddy**.
+
+## Install on a Mac
+
+1. Download the `.dmg` for your Mac. To check which one, open the Apple menu > **About This Mac**: it says Chip (Apple M…) or Processor (Intel).
+2. Open the `.dmg` and drag **Pit Wall RB Buddy** to **Applications**.
+3. Open it from Applications. The app isn't notarized by Apple, so the first time macOS says it can't check it. Click **Done**, then go to **System Settings > Privacy & Security**, scroll down and click **Open Anyway**. You only need to do this once.
+4. The car appears at the bottom of the screen. Control-click it (or right-click) for the menu.
+
+**Screenshot** and **Snip** need Screen Recording; the first time, the car tells you where to switch it on. To uninstall, drag the app from Applications to the Bin.
 
 ## Install on Ubuntu
 
@@ -35,7 +46,7 @@ To uninstall, run `sudo apt remove pitwall-rb-buddy`.
 ## Using it
 
 - **Click the car** to box (stop) or send it out, and **drag it** to move it.
-- **Right-click the car** for the menu: Pit Wall, tasks, tickets, Max's moods, Race mode, pit stops and the driver getting out.
+- **Right-click the car** (Control-click on a Mac) for the menu: Pit Wall, tasks, tickets, Max's moods, Race mode, pit stops and the driver getting out.
 - **Add a task** without any account: open Pit Wall and type `/add call the bank at 3pm` in Talk (on Windows, the **Pit Wall task window** in the Start menu works too). Times in plain English become reminders, and the car calls "Box, box!" when they're due.
 - **Connect an account** in Settings (Jira, Gmail, Yahoo Mail, Slack, Lark, WhatsApp or Trello) to open the Tasks, Tickets and Meetings tabs. Their due items join your tasks and are called out on the radio.
 
