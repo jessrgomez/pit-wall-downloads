@@ -9,7 +9,7 @@ This repository holds the installers. The source code is private.
 | System | Installer | Size |
 | --- | --- | --- |
 | Windows 10 or 11 | [PitWall-RB-Buddy-Setup-1.2.0.exe](https://github.com/jessrgomez/pit-wall-downloads/releases/download/v1.2.0/PitWall-RB-Buddy-Setup-1.2.0.exe) | 2.4 MB |
-| Ubuntu (64-bit) | [PitWall-RB-Buddy-1.1.1-amd64.deb](https://github.com/jessrgomez/pit-wall-downloads/releases/download/ubuntu-v1.1.1/PitWall-RB-Buddy-1.1.1-amd64.deb) | 72 MB |
+| Ubuntu (64-bit) | [PitWall-RB-Buddy-1.2.0-amd64.deb](https://github.com/jessrgomez/pit-wall-downloads/releases/download/ubuntu-v1.2.0/PitWall-RB-Buddy-1.2.0-amd64.deb) | 74 MB |
 
 Every version is on the [Releases](https://github.com/jessrgomez/pit-wall-downloads/releases) page.
 
@@ -26,7 +26,7 @@ PowerShell 5.1 and the Edge WebView2 Runtime come with Windows 10 and 11, so the
 1. Download the `.deb`.
 2. Double-click it and choose **Install**, or run:
    ```
-   sudo apt install ./PitWall-RB-Buddy-1.1.1-amd64.deb
+   sudo apt install ./PitWall-RB-Buddy-1.2.0-amd64.deb
    ```
 3. Open **Pit Wall RB Buddy** from your apps. The car appears at the bottom of the screen.
 
@@ -36,8 +36,8 @@ To uninstall, run `sudo apt remove pitwall-rb-buddy`.
 
 - **Click the car** to box (stop) or send it out, and **drag it** to move it.
 - **Right-click the car** for the menu: Pit Wall, tasks, tickets, Max's moods, Race mode, pit stops and the driver getting out.
-- **Add tasks** in Pit Wall. Times written in plain English ("call the bank at 3pm") become reminders, and the car calls "Box, box!" when they're due.
-- **Connect accounts** in Settings (Jira, Gmail, Yahoo Mail, Slack, Lark, Trello) to have their due items added to your tasks and called out on the radio. Everything is optional; the task tracker works without any account.
+- **Add a task** without any account: open Pit Wall and type `/add call the bank at 3pm` in Talk (on Windows, the **Pit Wall task window** in the Start menu works too). Times in plain English become reminders, and the car calls "Box, box!" when they're due.
+- **Connect an account** in Settings (Jira, Gmail, Yahoo Mail, Slack, Lark, WhatsApp or Trello) to open the Tasks, Tickets and Meetings tabs. Their due items join your tasks and are called out on the radio.
 
 Your settings and tasks stay on your computer.
 
